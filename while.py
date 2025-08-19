@@ -28,8 +28,8 @@
 for i in range(0,6,1):
     print(5-i)
 ''' Even and odd number'''
-for num in range(1,2):
-    if num%2 == 0:
+for i in range(1,2):
+    if i%2 == 0:
         print("even")
     else:
         print("odd")
