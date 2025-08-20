@@ -52,8 +52,15 @@
 #     else:
 #         print(i,'not a prime number')
 
-''' matrics '''
-for i  in range(1,5):
-    for j in range(1,4):
-        print(i,'-',j, end=' ')
+# ''' matrics '''
+# for i  in range(1,5):
+#     for j in range(1,4):
+#         print(i,'-',j, end=' ')
+#     print(' ')
+
+''' prime numbers using for loop '''
+for i in range(1,7):
+    for j in range(1,7):
+        if i>=j:
+           print('*',end=' ')
     print(' ')
