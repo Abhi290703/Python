@@ -1,8 +1,10 @@
-i = 5
+i = 1
 while True :
-    i+=3
+    i+=1
     print (i)
-    if i==20:
+    if i<10:
+        continue
+    else:
         break
 
 i = 0
