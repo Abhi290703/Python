@@ -20,7 +20,7 @@ print(rev)
 
 # by using for loop
 rev = ''
-for i in range (len(name)-1,-1,-1):
+for i in range (len(name)-2,-1,-1):
     rev+=name[i]
 if rev == name:
     print("it is a palindrome")
@@ -31,7 +31,7 @@ else:
 
 print(name.find('b'))  # returns index of first occurrence
 print(name.find('d'))
-print(name.find('h',3,5))
+print(name.find('h',2,3))
 
 # rfinder 
  
