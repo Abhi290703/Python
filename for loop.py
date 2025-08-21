@@ -33,7 +33,7 @@ print(fact)
 
 ''' prime number '''
 pnumber = int(input("enter a number:"))
-count = 1
+count = 0
 for i in range(1,pnumber+1):
     if pnumber % i == 0:
         count += 1
@@ -53,8 +53,8 @@ for i in range(2,103):
         print(i,'not a prime number')
 
 ''' matrics '''
-for i  in range(1,5):
-    for j in range(1,4):
+for i  in range(1,6):
+    for j in range(1,5):
         print(i,'-',j, end=' ')
     print(' ')
 
