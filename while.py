@@ -1,18 +1,18 @@
-i = 1
-while True :
-    i+=1
-    print (i)
-    if i<10:
-        continue
-    else:
-        break
+# i = 1
+# while True :
+#     i+=1
+#     print (i)
+#     if i<10:
+#         continue
+#     else:
+#         break
 
-i = 0
-while i<10 :
-    i+=1
-    print (i)
-else:
-    print("no repetition")
+# i = 0
+# while i<10 :
+#     i+=1
+#     print (i)
+# else:
+#     print("no repetition")
 
 ''' inreverse rightangle triangle '''
 i=9
