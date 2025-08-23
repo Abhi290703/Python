@@ -9,6 +9,7 @@
 # rev = a[::-1]
 # print(rev)
 
+
 # ''' if else statement '''
 # if a == rev:
 #     print("Palindrome")
@@ -95,15 +96,15 @@
 
 #fibonnaci series
 
-# e = 7
-# f = 8
+# e = 0
+# f = 1
 # for i in range(0,10):
 #     g = e + f
 #     e = f
 #     f = g
 #     print(g)
 
-#prime numbers
+# prime numbers
 
 # h=int(input("enter a number :"))
 # count = 0
@@ -135,45 +136,252 @@
 #     print(' ')
 
 
-# inveres rigth angle triangle
-k = 6
-while k>0:
-    k-=1
-    print('*'*(k-1))
+# # inveres rigth angle triangle
+# k = 6
+# while k>0:
+#     k-=1
+#     print('*'*(k-1))
 
-l = 7
-while l>0:
-    l-=1
-    print('?'*(l+1))
+# l = 7
+# while l>0:
+#     l-=1
+#     print('?'*(l+1))
 
-#right angle triangle
-m = 0
-while m<6:
-    m+=1
-    print(' '*(6-m)+'*'*m)
+# #right angle triangle
+# m = 0
+# while m<6:
+#     m+=1
+#     print(' '*(6-m)+'*'*m)
 
-n = 0
-while n<6:
-    n+=1
-    print(' '*(6-n)+'* '*n)
-
-
-# no repetation
-o = 10
-while o > 0 :
-    o-=1
-    print(o)
-else:
-    print("no repetation")
+# n = 0
+# while n<6:
+#     n+=1
+#     print(' '*(6-n)+'* '*n)
 
 
-# continue and break
+# # no repetation
+# o = 10
+# while o > 0 :
+#     o-=1
+#     print(o)
+# else:
+#     print("no repetation")
 
-p = 11
-while True:
-    p+=1
-    print(p)
-    if p == 15:
-        break
+
+# # continue and break
+
+# p = 11
+# while True:
+#     p+=1
+#     print(p)
+#     if p > 15:
+#         continue
+#     else:
+#         break
+
+# if else statement
+
+# cart = 600
+# user = "prime"
+# coupon = "yes"
+# if cart > 500:
+#     if user == "prime":
+#         print("20 percent discount")
+#     else:
+#         if coupon == "yes":
+#             print("10 percent discount")
+#         else:
+#             print("5 percent discount")
+# else :
+#     print("no discount appiled")
+
+# home = 600
+# person = "Prime" 
+# appiled = "yes"
+# if cart > 500:
+#     if person == "Prime":
+#         print("20 percent discount")
+#     if appiled == "yes":
+#         print("10 percent discount")
+#     else:
+#         print("5 percent discount")
+# else :
+#     print("no discount appiled")
 
 
+# destination = "metro station"
+# passenger = "senior"
+# passenger2 = "employee"
+# if destination == "metro station":
+#     if passenger == "senior":
+#         print("40% off")
+#     else:
+#         print("full fare")
+#     if passenger2 == "student":
+#         print("20% off")
+#     else :
+#         print("full fare")
+
+# # switch statement
+# role = "employee"
+# department = "admin"
+# match role :
+#     case "admin":
+#         if department == "HR":
+#             print("edit access granted")
+#         else:
+#             print("view access granted")
+        
+#     case "manager":
+#         if department == "HR":
+#             print("edit access granted")
+#         else:
+#             print("view access granted")
+        
+#     case "employee":
+#         if department == "HR":
+#             print("edit access granted")
+#         else:
+#             print("view access granted")
+        
+# mobile plan
+
+# plan = "basic"
+# user = "student"
+# match plan:
+#     case "basic":
+#         if user == "student":
+#             print("Extra student discount appiled")
+#         else:
+#             print("No extra discount applied")
+#     case "medium":
+#         if user == "student":
+#             print("Extra student discount appiled")
+#         else:
+#             print("No extra discount applied")
+#     case "premium":
+#         if user == "student":
+#             print("Extra student discount appiled")
+#         else:
+#             print("No extra discount applied")
+
+# # cart 
+# cart = 600
+# user = "prime"
+# if cart > 1000:
+#     if user == "prime":
+#         print("20 percent discount")
+#     else :
+#         print("No extra discount applied")
+# elif cart > 500 and cart < 1000:
+#     if user == "prime":
+#         print("10 percent discount")
+#     else :
+#         print("No extra discount applied")
+# if cart < 500:
+#     print("no offers available")
+
+
+# number=int(input('Enter a number wether it is a palendrome or not:'))
+# check=number
+# rev=0
+# while number>0:
+#     r=number%10
+#     rev=rev*10+r
+#     number//=10
+# print(rev)
+# if check==rev:
+#     print(rev,'is a palendrome')
+# else:
+#     print(rev,'is not a palandrome')  
+
+# pnumber = int(input("Enter a number: "))
+# check=pnumber
+# rev=0
+# while pnumber > 0:
+#     r=pnumber%10
+#     rev=rev*10+r
+#     pnumber//=10
+# print(rev)
+# if check==rev:
+#     print(rev,'is a palendrome')
+# else:
+#     print(rev,'is not a palandrome')
+
+# a = "abhilash"
+# for i in range(-1,-len(a)-1,-1):
+#     print(a[i], end='')
+# print()
+
+# calculate sum of number from 1 to 100
+
+# sum = 0
+# for i in range(0,10):
+#     sum+=i
+#     print(sum)
+
+# mylist = ["apple", "mango","banana"]
+# for i in range(len(mylist)):
+#     print(mylist[i])
+
+# mylist = [2,3,4,5,6]
+# for i  in range(len(mylist)):
+#     mylist[i]*=i
+#     print(mylist[i])
+
+# # even and odd numbers using loops
+# a  = 7
+# for i in range(1,10):
+#     if i%2 == 0:
+#         print(i,"is even")
+#     else:
+#         print(i,"is odd")
+
+# reverse numbers from 10 to 1
+for i in range(10,0,-1):
+    print(i)
+
+# reverse a string
+a = "abhilash"
+name=a[::-1]
+print(name)
+
+# reverse a list
+mylist = [1,2,3,4,5]
+mylist.reverse()
+print(mylist)
+
+# reverse a tuple
+mytuple = (1,2,3,4,5,6,7,8,9)
+mytuple = mytuple[::-1]
+print(mytuple)
+
+# largest num in list using list
+my_list = [2,3,2,3,4,5,6,7,8]
+largest = my_list[0]
+for num in my_list:
+    if num > largest:
+        largest = num
+print("Largest number is:", largest)
+
+# average number
+mytuple = (1,2,34,5,67,7)
+total = 0
+for num in mytuple:
+    total+=num
+    average = total/len(mytuple)
+    print("Average is:", average)
+
+# reverse of a name
+d = "Abhilash"
+rev = " "
+for i in range(len(d)-1,-1,-1):
+    rev+=d[i]
+    print("reverse is:", rev)
+
+# right angel triangle
+
+num = 5
+while num > 0:
+    num-=1
+    print(' '*(5-num)+'*'*num)
