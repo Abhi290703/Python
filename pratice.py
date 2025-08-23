@@ -338,50 +338,72 @@
 #         print(i,"is odd")
 
 # reverse numbers from 10 to 1
-for i in range(10,0,-1):
-    print(i)
+# for i in range(10,0,-1):
+#     print(i)
 
-# reverse a string
-a = "abhilash"
-name=a[::-1]
-print(name)
+# # reverse a string
+# a = "abhilash"
+# name=a[::-1]
+# print(name)
 
-# reverse a list
-mylist = [1,2,3,4,5]
-mylist.reverse()
-print(mylist)
+# # reverse a list
+# mylist = [1,2,3,4,5]
+# mylist.reverse()
+# print(mylist)
 
-# reverse a tuple
-mytuple = (1,2,3,4,5,6,7,8,9)
-mytuple = mytuple[::-1]
-print(mytuple)
+# # reverse a tuple
+# mytuple = (1,2,3,4,5,6,7,8,9)
+# mytuple = mytuple[::-1]
+# print(mytuple)
 
-# largest num in list using list
-my_list = [2,3,2,3,4,5,6,7,8]
-largest = my_list[0]
-for num in my_list:
-    if num > largest:
-        largest = num
-print("Largest number is:", largest)
+# # largest num in list using list
+# my_list = [2,3,2,3,4,5,6,7,8]
+# largest = my_list[0]
+# for num in my_list:
+#     if num > largest:
+#         largest = num
+# print("Largest number is:", largest)
 
-# average number
-mytuple = (1,2,34,5,67,7)
-total = 0
-for num in mytuple:
-    total+=num
-    average = total/len(mytuple)
-    print("Average is:", average)
+# # average number
+# mytuple = (2,2,3,4,5,6,7,8)
+# total = 0
+# for num in mytuple:
+#     total+=num
+#     average = total/len(mytuple)
+#     print("Average is:", average)
 
-# reverse of a name
-d = "Abhilash"
-rev = " "
-for i in range(len(d)-1,-1,-1):
-    rev+=d[i]
-    print("reverse is:", rev)
+# # # reverse of a name
+# # d = "Abhilash"
+# # rev = " "
+# # for i in range(len(d)-1,-1,-1):
+# #     rev+=d[i]
+# #     print("reverse is:", rev)
 
-# right angel triangle
+# # # right angel triangle
 
-num = 5
-while num > 0:
-    num-=1
-    print(' '*(5-num)+'*'*num)
+# # num = 5
+# # while num > 0:
+# #     num-=1
+# #     print(' '*(5-num)+'*'*num)
+
+# # to find letter between
+# a = "abhilash"
+# print(a.find('b'))  # returns index of first occurrence
+# print(a.find('z'))  # returns -1 if not found
+# print(a.find('h',1))  # search h between index 2 to 5
+
+# # to rfind 
+# print(a.rfind('b'))
+# print(a.rfind('z'))
+# print(a.rfind('h',2,6))
+
+# operators
+print(10 + 20)
+print(10 - 20)
+print(10 * 20)
+print(10 / 20)
+print(10 % 20)
+print(10 ** 20)
+print(10 // 20)
+
+# 
