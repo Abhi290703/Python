@@ -18,7 +18,7 @@
 i=9
 while i>0 :
     i-=1 # i=i-2
-    print("*"*(i+1))
+    print("*"*(i+1))    
 
 ''' in rightangle triangle '''
 i=0

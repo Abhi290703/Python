@@ -47,7 +47,7 @@ else:
 a = 0
 while a < 5:
     a+=1
-    print(' '*(5-a)+'*'*a)
+    print('* '*(5-a)+'  '*a)
 
 # prime number 1 to 100
 for i in range(2,100):
