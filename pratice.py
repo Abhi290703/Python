@@ -168,6 +168,13 @@ if count%2 == 0:
 else:
     print(n,"it is not a prime number")
 
+# multiplication 
+a = 4
+i = 1
+while i <= 12:
+    print(a,"X",i,"=",a * i)
+    i+=1
+
 
 
 

@@ -37,19 +37,73 @@
 #     print(' ')
 
 # right angle triangle 
-for i in range(1,6):
-    for j in range(1,6):
-        if i<=j:
-            print('*', end =" ")
-    print(" ")
+# for i in range(1,6):
+#     for j in range(1,6):
+#         if i<=j:
+#             print('*', end =" ")
+#     print(" ")
 
 
 # invert right angle triangle
-for i in range(1,5):
-    for j in range(1,5):
-        if i>=j:
-            print('*', end = " ")
-    print(" ")
+# for i in range (1,6):
+#     for j in range(1,6):
+#         if i>=j:
+#             print("*",end = " ")
+#     print(" ")
+
+# reverse of string
+# for i in range(2,22,3):
+#     print(3-i)
+
+# second method
+# a = "string"
+# b = a[::-1]
+# print(b)
+
+# 10 natural numbers
+# n = 11
+# for i in range(1,n):
+
+#     print(i)
+
+# print sum of numbers
+
+n = 20
+sum = 0
+for i in range(0,n+1):
+    sum+=i
+print(sum)
+
+# display numbers using loop
+num = [1,2,3,4,5,6,7,8]
+for i in num:
+    print(i)
+
+# count total number od digits
+num = 1,2,3,4,5,6,7,8,9,0
+count = 0
+for i in num:
+    count+=1
+print(count)
+
+
+# given string is palindrome or not
+a = "madam  "
+rev_str = ""
+for i in a:
+    rev_str=i+rev_str
+if(a == rev_str):
+    print(a,"it is a palindrome")
+else:
+    print(a,"it is not a plaindrome")
 
 
 
+
+# user given string is reverse
+
+user = "string"
+rev_str = " "
+for i in user:
+    rev_str=i+rev_str
+print(rev_str)
