@@ -125,21 +125,49 @@
 
 # second type
 
-i = 0
-while i < 6:
-    print("* "*i)
-    i+=1
+# i = 0
+# while i < 6:
+#     print("* "*i)
+#     i+=1
 
 # invert type
 
-j = 5
-while j > 0:
-    print("* "*j)
-    j-=1
+# j = 5
+# while j > 0:
+#     print("* "*j)
+#     j-=1
 
 
 
 # for loops
+
+# factorial number
+
+# fact = 7
+# for i in range(1,fact+1):
+#     fact=fact*i
+# print(fact)
+
+
+#second type
+
+# n=int(input("enter a factorial number"))
+# fact  = 1
+# for i in range (1,n+1,1):
+#     fact=fact*i
+#     print(fact)
+
+# prime number 
+n = int(input("enter a prime number"))
+count = 0
+for i in range(1,n+1):
+    if n%2==0:
+        count+=1
+if count%2 == 0:
+    print(n,"it is a prime number")  
+else:
+    print(n,"it is not a prime number")
+
 
 
 
