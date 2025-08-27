@@ -71,14 +71,75 @@
 
 # determine if the number is +,-,0
 
-num = 11
-if num == 0:
-    print("zero")
-elif num % 2 == 0:
-    print("even number")
-else:
-    print("odd number")
+# num = 11
+# if num == 0:
+#     print("zero")
+# elif num % 2 == 0:
+#     print("even number")
+# else:
+#     print("odd number")
 
+# leap year program
+
+# year = int(input("enter year"))
+
+# if year % 400 == 0 or year % 4 == 0 and year % 100 != 0:
+#     print("leap year")
+# else :
+#     print("not a leap year")
+
+# how to write remainder
+# number = 56789
+# while number > 0:
+#     r = number%5
+#     print(r)
+#     number//=5
+
+# reverse a number using while
+# anumber = 7227
+# act = anumber
+# rev = 0
+# while anumber > 0:
+#     r = anumber%10
+#     rev = rev*10+r
+#     anumber//=10
+#     print(rev)
+# if act == rev:
+#     print("it is a palindrome")
+# else:
+#     print("it is not a palindrome")
+
+# rigth angle triangle
+
+# g  = 0
+# while g < 7:
+#     g+=1
+#     print(" "*(7-g)+"*"*g)
+
+# # invert right triangle
+
+# h = 7
+# while h > 0:
+#     h-=1
+#     print("*"*(h))
+
+# second type
+
+i = 0
+while i < 6:
+    print("* "*i)
+    i+=1
+
+# invert type
+
+j = 5
+while j > 0:
+    print("* "*j)
+    j-=1
+
+
+
+# for loops
 
 
 
