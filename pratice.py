@@ -143,37 +143,39 @@
 
 # factorial number
 
-# fact = 7
-# for i in range(1,fact+1):
-#     fact=fact*i
-# print(fact)
+# prime number
+
+# n = int(input("enter a prime number : "))
+# count = 0
+# for i in range(1,n+1):
+#     if n%i == 0:
+#         count+=1
+# if count == 2:
+#     print(n,"it is a prime number")
+# else:
+#     print(n,"it is not a prime number")
+
+# second method
+
+for i in range (2,50):
+    count = 0
+    for j in range (1,i+1):
+        if i%j == 0:
+            count+=1
+    if count == 2:
+        print(i,"it is a prime number")
+    else:
+        print(i,"it is not a prime number")
 
 
-#second type
-
-# n=int(input("enter a factorial number"))
-# fact  = 1
-# for i in range (1,n+1,1):
-#     fact=fact*i
-#     print(fact)
-
-# prime number 
-n = int(input("enter a prime number"))
-count = 0
-for i in range(1,n+1):
-    if n%2==0:
-        count+=1
-if count%2 == 0:
-    print(n,"it is a prime number")  
-else:
-    print(n,"it is not a prime number")
+# console.log("*****************************")
 
 # multiplication 
-a = 4
-i = 1
-while i <= 12:
-    print(a,"X",i,"=",a * i)
-    i+=1
+# a = 4
+# i = 1
+# while i <= 12:
+#     print(a,"X",i,"=",a * i)
+#     i+=1
 
 
 
