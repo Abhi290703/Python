@@ -41,8 +41,108 @@
 
 #  string methods
 
-name1 = "achiversIT"
-print(len(name1))
-print(name1.rfind('i'))
-# print(name1.rfind('i',0,10,2))
-print(name1.count('i',10))
+# name1 = "achieversIT"
+
+# print(name1.rindex('e',0,10))
+
+# # count 
+# print(name1.count('e'))
+
+# #ljust
+# subname = name1.ljust(14,"*")
+# print(len(subname))
+# print(subname)
+
+# #rjust
+# subname = name1.rjust(14,"*")
+# print(subname)
+
+# #center
+# subname = name1.center(25,"*")
+# print(subname)
+
+# #z fill
+# subname = name1.zfill(20)
+# print(subname)
+
+# # count
+# subname = name1[0:5].count('e')
+# print(subname)
+
+# #l strip
+# string = "hello"
+# print(len(string))
+
+# #l strip
+# string1=string.lstrip
+# print(len(string))
+# print(string1)
+
+# #r strip
+# string1=string.rstrip
+# print(len(string))
+# print(string1)
+
+# # join and split
+# join :
+# ex='a-b-c-d-e'
+# print(ex.replace('-',','))
+
+# s1 = "Abhi"
+# s2 = "nani"
+# print(s1.join(s2))
+
+# split
+# s3 = "abhilash abhi"
+# s4 = s3.split((' '))
+# for x in s4:
+#     print(x)
+
+# #r split
+# s4 = s3.rsplit((' '))
+# for x in s4:
+#     print(x)
+
+# # splitlines
+
+# para="Hi there is dog"
+# print(para.splitlines())
+
+# prefix 
+quot="Pyhton is a dynamic language"
+# print(quot.startwith("Pyhton"))
+# print(quot.endwith('dynamic'))
+
+#remove prefix
+# print(quot.removeprefix('Py'))
+# print(quot.removeprefix('ht'))
+
+#remove sufix
+# print(quot.removesufix('ge'))
+
+#partion
+# email='abhi@gmail.com'
+# print(email.partition('@'))
+# print(email.partition('a'))
+
+#upper
+# wish = "hello"
+# print(wish.upper)
+
+#lower
+# print(wish.lower)
+
+#lower extenstion
+greetings = " Hello my friend"
+print(greetings.lower())
+print(greetings.title())
+print(greetings.capitalize())
+print(greetings.swapcase())
+print(greetings.isalpha())
+
+
+# isinstance
+print(isinstance(79,str))
+print(isinstance(79,int))
+print(isinstance(79.08,float))
+print(isinstance("array",char))
