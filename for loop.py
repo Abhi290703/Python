@@ -109,31 +109,6 @@
 # print(rev_str)
 
 
-# addition matrix
-
-# a = [[1,2,3],[4,5,6]]
-# b = [[7,8,9],[10,11,12]]
-
-# def same_size(a,b):
-#     return len(a) == len(b) and all(len(rowa) == len(rowb) for rowa, rowb in zip(a,b))
-
-# def add_matrix(a,b):
-#     if not same_size(a,b):
-#         raise ValueError("Matrices must have the same shape for addition")
-    
-#     rows, cols = len(a), len(a[0])
-#     c = []
-    
-#     for i in range(rows):       # loop over rows
-#         row = []                # new row for result
-#         for j in range(cols):   # loop over columns
-#             row.append(a[i][j] + b[i][j])
-#         c.append(row)           # add row to result
-    
-#     return c
-
-# print("Matrix A + B = ", add_matrix(a,b))
-
 
 # second time
 
@@ -158,23 +133,23 @@
 
 # matrix subtraction
 
-f = [[1,2,3],[4,5,6]]
-g = [[7,8,9],[10,11,12]]
+# f = [[1,2,3],[4,5,6]]
+# g = [[7,8,9],[10,11,12]]
 
-def same_size(f,g):
-    return len(f) == len(g) and all(len(rowf) == len(rowg) for rowf,rowg in zip(f,g))
-def sub_matrix(f,g):
-    if not same_size(f,g):
-        raise ValueError("matrix does not match with shape and size")
-    rows , cols = len(f),len(g[0])
-    h=[]
-    for i in range(rows):
-        row=[]
-        for j in range(cols):
-            row.append(f[i][j] - g[i][j])
-        h.append(row)
-    return h
-print("matrix f - g = ",sub_matrix(f,g))
+# def same_size(f,g):
+#     return len(f) == len(g) and all(len(rowf) == len(rowg) for rowf,rowg in zip(f,g))
+# def sub_matrix(f,g):
+#     if not same_size(f,g):
+#         raise ValueError("matrix does not match with shape and size")
+#     rows , cols = len(f),len(g[0])
+#     h=[]
+#     for i in range(rows):
+#         row=[]
+#         for j in range(cols):
+#             row.append(f[i][j] - g[i][j])
+#         h.append(row)
+#     return h
+# print("matrix f - g = ",sub_matrix(f,g))
             
 
 
