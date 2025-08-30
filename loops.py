@@ -31,24 +31,28 @@
 #     print(car,"is not a luxury car")
 
 ''' while loop '''
-i = 8
-while True:
-    i -=1
-    print(i)
-    if i > 5:
-        continue
-    else:   
-        break
+# i = 8
+# while True:
+#     i -=1
+#     print(i)
+#     if i > 5:
+#         continue
+#     else:   
+#         break
 
 ''' reverse'''
-for i in range(0,11,1):
-    print(2-i)
+
+s = "abhilash"
+rev= ' '
+for i in range (len(s) -1,-1,-1):
+    rev+=s[i]
+print(rev)
 
 ''' factorial '''
-fact = 7
-for i in range(1,fact+1):
-    fact=fact*i
-print(fact)
+# fact = 7
+# for i in range(1,fact+1):
+#     fact=fact*i
+# print(fact)
 
 
 

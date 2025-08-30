@@ -36,6 +36,13 @@
 #         print(i,'-',j,end = " ")
 #     print(' ')
 
+'''
+for i in range (1,5):
+for j in range (1,4):
+print(i,'-',j,end = " ")
+print(' ')
+'''
+
 # right angle triangle 
 # for i in range(1,6):
 #     for j in range(1,6):
@@ -43,6 +50,13 @@
 #             print('*', end =" ")
 #     print(" ")
 
+'''
+for i in range(1,6):
+for j in range(1,6):
+i+=j
+print('+, end =" ")
+print(" ")
+'''
 
 # invert right angle triangle
 # for i in range (1,6):
@@ -51,9 +65,6 @@
 #             print("*",end = " ")
 #     print(" ")
 
-# reverse of string
-# for i in range(2,22,3):
-#     print(3-i)
 
 # second method
 # a = "string"
@@ -91,12 +102,11 @@
 # a = "madam  "
 # rev_str = ""
 # for i in a:
-#     rev_str=i+rev_str
+#     rev_str+=i
 # if(a == rev_str):
 #     print(a,"it is a palindrome")
 # else:
 #     print(a,"it is not a plaindrome")
-
 
 
 
@@ -151,6 +161,13 @@
 #     return h
 # print("matrix f - g = ",sub_matrix(f,g))
             
+''' reverse'''
+
+s = "abhilash"
+rev= ' '
+for i in range (len(s) -1,-1,-1):
+    rev+=s[i]
+print(rev)
 
 
 
