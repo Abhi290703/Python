@@ -98,31 +98,7 @@
 
 
 
-# for loops 
 
-#prime number
-
-n = int(input("enter a prime number"))
-count = 0
-for i in range (1,n+1):
-    if n%i == 0:
-        count+=1
-if count==2:
-    print("prime number")
-else:
-    print("not a prime number")
-
-# nested loop
-
-for i in range(2,n+1):
-    count = 0
-    for j in range(1,i+1):
-        if n%i == 0:
-            count+=1
-    if count == 2:
-        print("prime number")
-    else:
-        print("it is not a prime number")
     
     
 
