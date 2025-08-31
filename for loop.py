@@ -169,6 +169,9 @@ for i in range (len(s) -1,-1,-1):
 print(rev)
 
 
+# rigth angle triangle
+
+
 
 
 

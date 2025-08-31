@@ -207,18 +207,18 @@
 
 # arthimatic operator
 
-a = 5
+# a = 5
 
-a+=3
-print(a)
-a-=4
-print(a)
-a*=5
-print(a)
-a/=6
-print(a)
-a%=3
-print(a)
+# a+=3
+# print(a)
+# a-=4
+# print(a)
+# a*=5
+# print(a)
+# a/=6
+# print(a)
+# a%=3
+# print(a)
 
 
 # logical operator
@@ -239,9 +239,30 @@ in conditional statements their are 4 types
 
 # if-else statement
 
+# problem 1
 
+# city = "eluru"
+# if city == "eluru":
+#     print(city,"reached")
+# else:
+#     print(city,"reached vijayawada")
 
+#  problem 2
 
+# items = "none"                      # variable declaration
+# if items == "soaps":                #  condition if items are true
+#     print(items,"i have taken")         # it prints items if not does not prints
+# else:
+#     print("just visit and come")
+
+# problem 3
+
+num = 12
+
+if num % 3 == 0:
+    print("Divisible by 3")
+elif num % 4 == 0:
+    print("Divisible by 4")
 
 
 

@@ -28,23 +28,9 @@ while i<9 :
     i+=1
     print(' '*(9-i)+'*'*i)
 
-# second method of rigth angle triangle
-
-j = 0
-while j < 7:
-    print("*"*j)
-    j+=1
-
 
 # print("************************")
 
-
-# invert method
-
-j = 6
-while j > 1:
-    print("*"*j)
-    j-=1
 
 # print 1 to 10 numbers
 
@@ -59,11 +45,23 @@ while i>= 0:
 # multiplication table
 
 num = int(input("enter a number"))
-i = 1
-while i <= 12:
-    print(num,"x",i,"=",num * i)
+i = 1                       # starting
+while i <= 12:              # i should less than 12
+    print(num,"x",i,"=",num * i)        
     print(i)
     i+=1
    
 
+# rigth angle triangle 
 
+a = 0
+while a<7:
+    print("*"*a)
+    a+=1
+
+#invert right angle triangle
+
+b = 7
+while b>0:
+    print("*"*b)
+    b-=1
