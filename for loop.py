@@ -74,7 +74,6 @@ print(" ")
 # 10 natural numbers
 # n = 11
 # for i in range(1,n):
-
 #     print(i)
 
 # print sum of numbers

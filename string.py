@@ -1,4 +1,4 @@
-# name = "Abhi"
+name = "Abhi"
 # print (name[2])
 
 # # length of string
@@ -29,15 +29,15 @@
 
 # # to find letter in between
 
-# print(name.find('b'))  # returns index of first occurrence
-# print(name.find('d'))
-# print(name.find('h',2,3))
+print(name.find('b'))  # returns index of first occurrence
+print(name.find('d'))
+print(name.find('h',2,3))
 
 # # rfinder 
  
-# print(name.rfind('s'))  # returns index of last occurrence
-# print(name.rfind('d'))
-# print(name.rfind('h',2,6))
+print(name.rfind('s'))  # returns index of last occurrence
+print(name.rfind('d'))
+print(name.rfind('h',2,6))
 
 #  string methods
 
@@ -133,15 +133,15 @@ quot="Pyhton is a dynamic language"
 # print(wish.lower)
 
 #lower extenstion
-greetings = " Hello my friend"
-print(greetings.lower())
-print(greetings.title())
-print(greetings.capitalize())
-print(greetings.swapcase())
-print(greetings.isalpha())
+# greetings = " Hello my friend"
+# print(greetings.lower())
+# print(greetings.title())
+# print(greetings.capitalize())
+# print(greetings.swapcase())
+# print(greetings.isalpha())
 
 
 # isinstance
-print(isinstance(79,str))
-print(isinstance(79,int))
-print(isinstance(79.08,float))
+# print(isinstance(79,str))
+# print(isinstance(79,int))
+# print(isinstance(79.08,float))
