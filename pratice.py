@@ -179,6 +179,66 @@
 
 
 
+# operations 
+
+# Assignment operator
+
+# a = 10
+# b = 20
+# print(a+b)
+# print(a-b)
+# print(a*b)
+# print(a/b)
+# print(a%b)
+# print(a//b)
+
+# # relational operator
+
+# a = 5
+# b = 4
+# print(a+b)
+# print(a<b)
+# print(a>b)
+# print(a<=b)
+# print(a>=b)
+# print(a!=b)
+# print(a==b)
+
+
+# arthimatic operator
+
+a = 5
+
+a+=3
+print(a)
+a-=4
+print(a)
+a*=5
+print(a)
+a/=6
+print(a)
+a%=3
+print(a)
+
+
+# logical operator
+
+
+
+# conditional statements
+
+''' 
+in conditional statements their are 4 types 
+1.if
+2.if - else
+3.else if
+4.nested if
+5.switch case
+
+'''
+
+# if-else statement
+
 
 
 
