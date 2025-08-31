@@ -1,24 +1,26 @@
-# i = 1  
-while True :
-    i+=1
-    print (i)
-    if i<10:
-        continue
+i = 1    # variable declaration
+while True :        # condition check
+    i+=1            # i value should be + i=i+1
+    print (i)       # prints 2
+    if i<10:        # if 2 < 10
+        continue        # continues if not break
     else:
         break
 
-# i = 0
-while i<10 :
+# no repetation
+
+i = 0         
+while i<10 :    
     i+=1
     print (i)
 else:
     print("no repetition")
 
 # ''' inreverse rightangle triangle '''
-i=9
-while i>0 :
-    i-=1 # i=i-2
-    print("*"*(i+1))    
+i=9                         # variable declaration
+while i>0 :                 # condition if  i > 0
+    i-=1                    # i=i-2            
+    print("*"*(i+1))        
 
 # ''' in rightangle triangle '''
 i=0

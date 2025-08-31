@@ -157,15 +157,15 @@
 
 # second method
 
-for i in range (2,50):
-    count = 0
-    for j in range (1,i+1):
-        if i%j == 0:
-            count+=1
-    if count == 2:
-        print(i,"it is a prime number")
-    else:
-        print(i,"it is not a prime number")
+# for i in range (2,50):
+#     count = 0
+#     for j in range (1,i+1):
+#         if i%j == 0:
+#             count+=1
+#     if count == 2:
+#         print(i,"it is a prime number")
+#     else:
+#         print(i,"it is not a prime number")
 
 
 # console.log("*****************************")
@@ -176,6 +176,13 @@ for i in range (2,50):
 # while i <= 12:
 #     print(a,"X",i,"=",a * i)
 #     i+=1
+
+
+
+
+
+
+
 
 
 
