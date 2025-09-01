@@ -7,3 +7,5 @@
 L1=[1,6.9,True,'john',[1,2,34]]
 print(L1)
 print(L1[4][2])
+
+print("2" * 3)
