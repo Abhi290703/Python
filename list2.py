@@ -13,15 +13,15 @@
 # l1.append(8)
 # print(l1)
 
-# #extend
+# # extend
 # l1.extend([9,10,11])
 # print(l1)
 
-# #insert
+# # insert
 # l1.insert(11,12)
 # print(l1)
 
-# #copy
+# # copy
 # l2=l1.copy
 # print(l2)
 
@@ -80,3 +80,13 @@ print(l4)
 l5 = [10,45,20,39,89,90,56,67,72]
 l5.sort()
 print(l5)
+
+# nested list
+''' we are using nested list '''
+
+nl = [[1,2,3],[4,5,6],[7,8,9]]
+print(nl[0])
+print(nl[2][2])
+    #    |   |
+#      index  value  which will give according to it by using index and value
+''' we are can give index and value to it '''
