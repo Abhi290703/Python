@@ -4,6 +4,7 @@ what is list ?
 2. lists are mutable where it accepts all duplictes values
 3. list is collection of hetrogenous elements 
 4. in lists it converts any data type into list by using list function
+5. list is a order collection of elements.
 '''
 
 # program
@@ -48,6 +49,7 @@ what is list ?
 # print(l7)
 
 # # creating a empty list
+''' will we are using extend it should be represent in the form of tuple or list'''
 
 # l8 = []
 # l8.extend([1,2,3,4,5,6,7,8])
@@ -59,20 +61,23 @@ what is list ?
 
 l9 = [1,2,3,4,5,6,7,8,9]
 # print(l9[6])
-# print(l9[-6])
-
-# slicing
+# print(l9[-6]) 
 
 # l9[0:9]
 # print(l9)
+
 # # printing sequences of numbers
 # print(l9[::1])
+
 # # printing reverse number
 # print(l9[::-1])
+
 # # finding index value
 # print(l9[::-1][4])
+
 # # counting numbers from 2 to 5
 # print(l9[1:5:1])
+
 # # print negative numbers from the list 
 # print(l9[-2:-8:-1])
 
@@ -86,7 +91,7 @@ l9 = [1,2,3,4,5,6,7,8,9]
 # print(l9)
 
 # representing a -ve index
-''' here we can se that -4 is the index of the list and 10 is added to list beside of -4 index'''
+''' here we can see that reverse -4 is the index of the list and 10 is added to list beside of -4 index'''
 # l9[-4] = 10
 # print(l9)
 
@@ -102,11 +107,12 @@ l9 = [1,2,3,4,5,6,7,8,9]
 
 # adding value to list by using indexes 
 ''' here we can see that by using double indexs we can insert value to it'''
-# l9[1:7] = [10]
+# l9[1:7] = [10] -> adding value should be represent in the list format
 # print(l9)
 
 ''' we can add multiple values where it replaces values from given index to last index 
 when we given extra index value more it removes that value'''
+
 # l9[0:4] = [13,24,23]
 #   | |
 #    start index , end index
@@ -132,7 +138,7 @@ both the lists first value is are less than it checks last value and comapares t
 l12 = [1,2,3,4]
 l13 = [0,6,7,8]
 
-print(l12 > l13)
+print(l12 < l13)
 
 
 
