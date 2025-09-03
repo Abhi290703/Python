@@ -75,3 +75,8 @@ print(l4.count(8))
 # reverse
 l4.reverse()
 print(l4)
+
+# sort
+l5 = [10,45,20,39,89,90,56,67,72]
+l5.sort()
+print(l5)
