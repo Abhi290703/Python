@@ -112,10 +112,10 @@ print(" ")
 # user given string is reverse
 
 # user = "string"
-# rev_str = " "
+# rev = " "
 # for i in user:
-#     rev_str=i+rev_str
-# print(rev_str)
+#     rev=i+rev
+# print(rev)
 
 
 
