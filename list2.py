@@ -55,4 +55,17 @@ print(l3)
 del()
 print(l3)
 
+# methods in the list
+
+''' their are some of the methods in the list 
+1.index
+2.count
+3.reverse
+4.sort
+'''
+
+l4 = [3,4,5,6,7,8,9]
+
+# index 
+print(l4.index(4))   # -> here we are giving index values directly in index place
 
