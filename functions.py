@@ -41,13 +41,12 @@ fun () -> function call // function call means we declare after the block code w
 # program 3
 ''' leap year'''
 
-# def leap(a):
-#     year = " "
-#     if year % 400 == 0 or year % 4 == 0 and year % 100 != 0:
-#         print("leap year")
-#     else :
-#         print("not a leap year")
-# leap(2021)
+def leap(year):
+    if (year % 4 == 0 and year % 100 != 0):
+        print("leap year")
+    else :
+        print("not a leap year")
+leap(2021)
 
 # program 4
 '''area of square '''
@@ -67,7 +66,19 @@ fun () -> function call // function call means we declare after the block code w
 # program 6
 ''' list sum '''
 
-def list():
-    return sum()
-num = [1,2,3,7,8]
-print("sum",list(num))
+# def list(number):
+#     return sum(number)
+# num = [1,2,3,7,8]
+# print("sum",list(num))
+
+# program 7
+''' sum of program without using "sum" '''
+
+def sum(num):
+    total = 0
+    for i in num:
+        total += i
+        return total
+number = [10,23,45,67,89]
+result = sum(number)
+print("total",result)
