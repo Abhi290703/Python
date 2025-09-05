@@ -74,11 +74,54 @@ leap(2021)
 # program 7
 ''' sum of program without using "sum" '''
 
+number = [10,23,45,67,89]
 def sum(num):
     total = 0
     for i in num:
         total += i
         return total
-number = [10,23,45,67,89]
 result = sum(number)
 print("total",result)
+
+
+# program 8
+
+''' sub program with using sub'''
+
+number = [3,5,6,7,2,1,2]
+def sub(n):
+    total = 0
+    for i in n:
+        total-=i
+        return total
+result = sub(number)
+print("total", result)
+
+# program 9
+''' sum of programs without using sum'''
+
+num = [2,6,7,8]
+def add(n):
+    total = 0
+    for i in n:
+        total+=i
+    print(total)
+add(num)
+
+''' subtraction of program without using sub'''
+
+num = [2,3,4,5,6,7,8]
+def sub(n):
+    total=0
+    for x in n:
+        total-=x
+    print(total)
+sub(num)
+
+''' multi of program without using multi'''
+
+
+
+'''div of program without using div'''
+
+''''''
