@@ -84,9 +84,9 @@ fun () -> function call // function call means we declare after the block code w
 # print("total",result)
 
 
-# # program 8
+#  program 8
 
-# ''' sub program with using sub'''
+''' sub program with using sub'''
 
 # number = [3,5,6,7,2,1,2]
 # def sub(n):
@@ -97,8 +97,8 @@ fun () -> function call // function call means we declare after the block code w
 # result = sub(number)
 # print("total", result)
 
-# # program 9
-# ''' sum of programs without using sum'''
+ # program 9
+''' sum of programs without using sum'''
 
 # num = [2,6,7,8]
 # def add(n):
@@ -108,7 +108,7 @@ fun () -> function call // function call means we declare after the block code w
 #     print(total)
 # add(num)
 
-# ''' subtraction of program without using sub'''
+''' subtraction of program without using sub'''
 
 # num = [2,3,4,5,6,7,8]
 # def sub(n):
@@ -163,4 +163,4 @@ def pos4(numbers):
     print(sum(numbers))
 pos4(num)
 
-# 
+#  
