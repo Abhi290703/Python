@@ -135,32 +135,89 @@ fun () -> function call // function call means we declare after the block code w
 
 # position argunment
 
-''' positional argunments are nothing but we have give paticular position for values if we not given
+''' positional argunments are nothing but we have given paticular position for values if we not given
 paticular position to values error will occur '''
 
 # def pos(a,b,c):
 #     print('sum of pos',a+b+c)
-# pos(10,20,30)    # in this case if we see that i have particula position to values 
+# pos(10,20,30)     '''in this case if we see that i have particula position to values '''
 
 # def pos1(a,b,c):
 #     print('sub of numbers',a-b ,b-c,c-a)
-# pos1(b=20,c=40,a=10)     # in this case if we see that here we have given values to the particular variables so it will occur same value
+# pos1(c=10,b=20,a=30)  
+'''in this case if we see that here we have given values to the particular variables so it will occur same value '''
 
 # def pos2(a,b,c):
 #     print('sum of pos2',a+b+c)
-# pos2(b=20,10,30)    # if we see in this case we have given b=20 where we have position to b=20 and remaining values are not assign values to it
+# pos2(b=20,10,30)    
+'''if we see in this case we have given b=20 where we have position to b=20 and remaining values are not assign values to it '''
 
-num = [2,3,4,5]
-def pos3(a,b,c,d):
-    print(a+b+c+d)
-pos3(*num)
+# num = [2,3,4,5]
+# def pos3(a,b,c,d):
+#     print(a+b+c+d)
+# pos3(*num)
 
 # second method
 ''' second type directly using sum method '''
 
-num = [6,7,8,9]
-def pos4(numbers):
-    print(sum(numbers))
-pos4(num)
+# num = [6,7,8,9]
+# def pos4(numbers):
+#     print(sum(numbers))
+# pos4(num)
 
 #  
+# def pos(a,b,c):
+#     print("sum of pos",a+b+c)
+# pos(3,4,a=2)
+
+
+''' to printing argunments and keyword  '''
+
+# def call(*args):
+#     total=0
+#     print(args)
+# call(1,2,3,4,5,6)
+
+#     for x in args:
+#         total+=x
+#     print(total)
+# call(1,2,3,4,5,6)
+
+
+''' keyword argunments '''
+
+def key(**kwargs):
+    total=0
+    print(kwargs)
+key(a=10,b=20,c=30)
+
+''' in keyword argunment we cannot give values in the form of for loop'''
+
+''' giving both values in the combining '''
+
+def mat(*args,**kwargs):
+    print(args,kwargs)
+mat(1,2,3,4,a=6,b=7,c=8,d=9)
+
+# output : (1, 2, 3, 4) {'a': 6, 'b': 7, 'c': 8, 'd': 9}
+''' we have given both argunments in the function'''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
