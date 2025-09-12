@@ -257,12 +257,64 @@ in conditional statements their are 4 types
 
 # problem 3
 
-num = 12
+# num = 12
 
-if num % 3 == 0:
-    print("Divisible by 3")
-elif num % 4 == 0:
-    print("Divisible by 4")
+# if num % 3 == 0:
+#     print("Divisible by 3")
+# elif num % 4 == 0:
+#     print("Divisible by 4")
+
+
+''' dictonary '''
+
+# d1 = {1:'one',2:'two',3:'three',4:'four',5:'five'}
+# a = d1.keys()
+# print(a)
+
+# b = d1.values()
+# print(b)
+
+# for x in a:
+#     print(x)
+
+# for x in b:
+#     print(x)
+
+#  methods
+
+# items
+
+# info = {"name":"Abhi","age":22,"loction":"eluru","qlf":"B.tech"}
+# # a = info.items()
+# # print(a)
+
+# # update
+# infos = {"desgi":"study","pres-loc":"kphb"}
+# info.update(infos)
+# print(info)
+
+# # get 
+# c = info.get("pres-loc")
+# print(c)
+
+# # setdefault
+# d = info.setdefault("desgi")
+# print(d)
+
+# # pop
+# info.pop("pres-loc")
+# print(info)
+
+# # popitem
+# # info.popitem("desgi")
+# # print(info)
+
+# # clear
+# info.clear()
+# print(info)
+
+
+# functions
 
 
 
