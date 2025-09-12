@@ -4,6 +4,11 @@ we are representing values
 2.values
 3.set
 4.get
+5.clear
+6.pop
+7.popitem
+8.clear
+9.copy
 '''
 
 ''' obtaining keys '''
