@@ -313,8 +313,118 @@ in conditional statements their are 4 types
 # info.clear()
 # print(info)
 
+# _________________________________________________________________________________________________________
 
-# functions
+
+''' 
+1.what is python ?
+python is high-level programming language 
+where python is a interpreted language where each and every line code will be executed before
+turning into machine code
+
+2.why python is hybrid language ?
+python is hybrid language because first it compiles into byte code and then it interpets bytecode at 
+runtime.
+
+3.Their are 3 types of centeric
+    1.functional
+    2.data
+    3.module
+
+4.Datatypes in python
+    1.Numeric
+        a.int
+        b.float
+        c.boolean
+        d.complex
+    
+    2.Sequentical
+        a.list
+        b.tuple
+        c.string
+        d.array
+        e.bytearray
+
+    3.sets
+        a.set
+
+    4.dist
+        a.dictonary
+
+How many types of converstions are their ?
+1.implict conversition
+2.explict converstion
+
+Implict Converstion :
+1.int
+2.float
+3.complex
+4.boolean
+
+Explict Converstion :
+1.tuple
+2.list
+3.string
+4.array
+5.bytearray
+
+what are primitive data type and non-primitive data type
+
+primitive data type :
+int
+float
+boolean
+string
+complex
+
+Non-primitive data type:
+list
+tuple
+sets
+dictonary
+array
+
+
+
+'''
+
+# programs
+
+''' if statements '''
+
+# a = 10
+# if a == 10:
+#     print(a)
+
+# b = "abhi"
+# if b != "abhi":
+#     print("none")
+# else:
+#     print("correct")
+
+''' 3. WAP to display the last digit of a number '''
+
+# num = int(input("enter a number"))
+# if num < 10:
+#     print(num)
+# else:
+#     last = num % 10
+#     print(last)
+
+''' 4. WAP to check if a number is even or odd where the number is taken as input. '''
+
+# num = int(input("enter a number"))
+# if num%2 == 0:
+#     print(num,"even number")
+# else:
+#     print(num,"odd number")
+
+''' 5. Check if the first and last number of a list is same or not. '''
+c = (1,2,3,4,5,6,7,8,9,1)
+if c[0] == c[9]:
+    print("both are equal numbers")
+else:
+    print("both are not equal numbers")
 
 
 
