@@ -420,11 +420,34 @@ array
 #     print(num,"odd number")
 
 ''' 5. Check if the first and last number of a list is same or not. '''
-c = (1,2,3,4,5,6,7,8,9,1)
-if c[0] == c[9]:
-    print("both are equal numbers")
-else:
-    print("both are not equal numbers")
+# c = (1,2,3,4,5,6,7,8,9,1)
+# if c[0] == c[9]:
+#     print("both are equal numbers")
+# else:
+#     print("both are not equal numbers")
+
+''' 6.WAP to calculate percentage of a student through 5 subjects. Take marks as input from the user. '''
+
+t = int(input("enter marks"))
+h = int(input("enter marks"))
+e = int(input("enter marks"))
+m = int(input("enter marks"))
+s = int(input("enter marks"))
+
+total_marks = int(input("enter highest marks"))
+sub_marks = t+h+e+m+s
+perc = (sub_marks/total_marks)*100
+
+if perc > 90:
+    print("A+")
+elif perc > 78 and perc < 90:
+    print("B+")
+elif perc > 68 and perc < 77:
+    print("c+")
+elif perc > 58 and perc < 68:
+    print("D+")
+else :
+    print("fail")
 
 
 
