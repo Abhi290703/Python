@@ -5,7 +5,7 @@ print(ord(value))
 
 # c style printing
 # it is a 32gb hard drive coast about 21.90
-
+    # this above sentence belongs to down
 memory = 32
 device = "hardware"
 price = 21.90
