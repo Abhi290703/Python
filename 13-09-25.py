@@ -1,3 +1,6 @@
+# section A
+
+
 ''' 1.	Explain the difference between shallow copy and deep copy with an example program '''
 
 # Shallow Copy :
@@ -43,9 +46,22 @@ it copies the objects from the class it is dependent
 
 ''' 5. Differentiate between module and package with an example of each.'''
 # module :
-''' their are some modules how we can write open insert and delete'''
+''' their are some modules how we can write open insert and delete
+    modules where we can define the modules 
+'''
 # package :
-''' package describe the their some packages like import math , pandas and etc '''
+''' package describe the their some packages like import math , pandas and etc 
+    packages are pre defined 
+'''
+# program 
+
+''' modules'''
+import sys
+print(sys.version)
+
+''' packages '''
+# import pandas
+
 
 
 
@@ -154,6 +170,7 @@ print(list(my_zip([1,2,3],['a','b','c'])))
 
 '''
 
+
 '''
 13.	Write a Python module named mathutils.py that contains a function is_armstrong(n) 
 to check if a number is Armstrong. Import this module into another program and test it with 
@@ -161,8 +178,23 @@ at least 3 numbers.
 
 '''
 
-import mathutils 
+def armstrong(n):
 
+    digits = len(str(n))
+    temp = n
+    total = 0
+    while temp > 0:
+        digit = temp % 10
+        total += digit
+        temp //= 10
+        if total == n:
+            print(n, "is an Armstrong number")
+        else:
+            print(n, "is not an Armstrong number")
+
+armstrong(789)
+
+    
 
 
 
