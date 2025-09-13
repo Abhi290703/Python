@@ -110,8 +110,7 @@ output :
 
 '''
 
-def add_numbers(a, b, c=0, d):
-    return a + b + c + d
+
 
 
 
