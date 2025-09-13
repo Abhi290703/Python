@@ -109,9 +109,41 @@ output :
 
 
 '''
+'''
+def add_numbers(a, b, c=0, d=0):
+    return a + b + c + d
+
+where we should give any values in parameters we have to assign values in argunments only
+and thefore if we seen here c is assigned with value it is an error .
+
+'''
+
+''' 
+def test():
+    try:
+        return 1
+    finally:
+        return 2
+print(test())
+
+output :
+2
+
+'''
+# section c
+
+''' 
+12.	Write a program to implement your own version of the built-in zip() function.
+Example:
+Input: [1,2,3], ['a','b','c']  
+Output: [(1,'a'), (2,'b'), (3,'c')]
 
 
+'''
 
-
-
+# program :
+l1 = [1,2,3]
+l3 = ['a','b','c','d']
+l2 = dict(zip(l1,l3))
+print(l2)
 
