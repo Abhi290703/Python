@@ -155,8 +155,13 @@ print(list(my_zip([1,2,3],['a','b','c'])))
 '''
 
 '''
+13.	Write a Python module named mathutils.py that contains a function is_armstrong(n) 
+to check if a number is Armstrong. Import this module into another program and test it with 
+at least 3 numbers.
 
-14.	Write a program to read a file and display the 3 most frequent words along with their counts.
+'''
+
+import mathutils 
 
 
 
@@ -168,26 +173,13 @@ print(list(my_zip([1,2,3],['a','b','c'])))
 
 '''
 
+14.	Write a program to read a file and display the 3 most frequent words along with their counts.
 
-# Take input from user
-nums = list(map(int, input("Enter numbers separated by space: ").split()))
 
-# Initialize variables
-largest = second_largest = float('-inf')
+'''
 
-# Traverse the list
-for n in nums:
-    if n > largest:
-        second_largest = largest
-        largest = n
-    elif n > second_largest and n != largest:
-        second_largest = n
 
-# Output
-if second_largest == float('-inf'):
-    print("There is no second largest element")
-else:
-    print("Second largest number is:", second_largest)
+
 
 
 
