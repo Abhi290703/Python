@@ -145,9 +145,9 @@ Output: [(1,'a'), (2,'b'), (3,'c')]
 program :
 
 def my_zip(list1 ,list2):
-    length = min(len(list1),len(list2))
+    a = min(len(list1),len(list2))
     i = 0
-    while i < length:
+    while i < a:
         return (list1[i],list2[i])
         i+=1
 print(list(my_zip([1,2,3],['a','b','c'])))
@@ -158,7 +158,36 @@ print(list(my_zip([1,2,3],['a','b','c'])))
 
 14.	Write a program to read a file and display the 3 most frequent words along with their counts.
 
+
+
+
+
+
+
+
+
 '''
+
+
+# Take input from user
+nums = list(map(int, input("Enter numbers separated by space: ").split()))
+
+# Initialize variables
+largest = second_largest = float('-inf')
+
+# Traverse the list
+for n in nums:
+    if n > largest:
+        second_largest = largest
+        largest = n
+    elif n > second_largest and n != largest:
+        second_largest = n
+
+# Output
+if second_largest == float('-inf'):
+    print("There is no second largest element")
+else:
+    print("Second largest number is:", second_largest)
 
 
 
