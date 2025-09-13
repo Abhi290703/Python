@@ -428,26 +428,192 @@ array
 
 ''' 6.WAP to calculate percentage of a student through 5 subjects. Take marks as input from the user. '''
 
-t = int(input("enter marks"))
-h = int(input("enter marks"))
-e = int(input("enter marks"))
-m = int(input("enter marks"))
-s = int(input("enter marks"))
+# t = int(input("enter marks"))
+# h = int(input("enter marks"))
+# e = int(input("enter marks"))
+# m = int(input("enter marks"))
+# s = int(input("enter marks"))
 
-total_marks = int(input("enter highest marks"))
-sub_marks = t+h+e+m+s
-perc = (sub_marks/total_marks)*100
+# total_marks = int(input("enter highest marks"))
+# sub_marks = t+h+e+m+s
+# perc = (sub_marks/total_marks)*100
 
-if perc > 90:
-    print("A+")
-elif perc > 78 and perc < 90:
-    print("B+")
-elif perc > 68 and perc < 77:
-    print("c+")
-elif perc > 58 and perc < 68:
-    print("D+")
-else :
-    print("fail")
+# if perc > 90:
+#     print("A+")
+# elif perc > 78 and perc < 90:
+#     print("B+")
+# elif perc > 68 and perc < 77:
+#     print("c+")
+# elif perc > 58 and perc < 68:
+#     print("D+")
+# else :
+#     print("fail")
+
+
+''' 7.right angle triangle by uisng while '''
+
+
+# h = 0
+# while h < 6:
+#     h+=1
+#     print('*'*(h))
+
+
+# g = 6
+# while g > 0:
+#     g-=1
+#     print("*"*(g))
+
+
+''' prime number '''
+
+# n = 8
+# count = 0
+# for i in range(1,n):
+#     if n%i == 0:
+#         count+=1
+# if count == 2:
+#     print(n,"it is a prime number")
+# else:
+#     print(n,"it is not a prime number")
+    
+
+''' reverse of numbers from 1 to 10 '''
+# i = 10
+# while i >= 0:
+#     print(i)
+#     i-=1
+
+''' factorial program '''
+
+# n = int(input("enter a number: "))
+# fact=1
+# for i in range(1,n+1):
+#     fact=fact*n
+# print(fact)
+
+
+''' prime numbers 1 to 300 '''
+# for i in range (2,299):
+#     count = 0
+#     for j in range(1,i+1):
+#         if i%j == 0:
+#             count+=1
+#     if count == 2:
+#         print(i,"print all prime numbers")
+#     else:
+#         print(i,"don't print prime numbers")
+
+
+''' right angle triangele using for loop '''
+# for i in range(1,6):
+#     for j in range(1,6):
+#         if i>=j:
+#             print("*",end = " ")
+#     print(" ")
+
+''' invert right angle triangle '''
+# for i in range(1,6):
+#     for h in range(1,6):
+#         if i<=h:
+#             print("*", end =" ")
+#     print(" ")
+
+
+''' reverse a string '''
+# a = "string"
+# b = a[::-1]
+# print(b)
+
+# a = "string"
+# rev = " "
+# for i in a:
+#     rev=i+rev
+# print(rev)
+
+
+''' 10 natural numbers '''
+# n = 10
+# for i in range(1,n+1):
+#     print(i)
+
+
+''' sum of numbers '''
+# a = 10
+# sum = 0
+# for i in range(1,a+1):
+#     sum+=i
+# print(sum)
+
+
+''' palindrome '''
+# a = "madam"
+# rev = ""
+# for i in a:
+#     rev+=i
+# if(a == rev):
+#     print(a,"it is a palindrome")
+# else:
+#     print(a,"it is not a palindrome")
+
+
+# lits
+
+# name = "string"
+
+# print(name.rfind("i")) # counts from the reverse
+
+# print(name.rfind('i',4)) # it checks place
+
+# subname = name.ljust(14,'*')
+# print(subname)
+
+# subname = name.rjust(14,'*')
+# print(subname)
+
+# subname = name.center(20)
+# print(subname)
+
+# subname = name[0:6].count('t')
+# print(subname)
+
+# string = '  hello'
+# # print(len(string))
+
+# string1 = string.lstrip
+# print(string1)
+
+# string1 = string.rstrip
+# print(string1)
+
+# string1 = string.strip()
+# print(string1)
+
+
+# replace
+# ex = "a-b-c-d"
+# print(ex.replace('-',','))
+
+# #  joins 
+
+# a = '/'
+# b = 'abc'
+# print(a.join(b))
+
+# # split :
+# rep = "abhilash"
+# rel = rep.split(' ')
+# for x in rel:
+#     print(x)
+
+
+
+
+
+
+
+
+
 
 
 
