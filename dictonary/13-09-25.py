@@ -141,9 +141,64 @@ Output: [(1,'a'), (2,'b'), (3,'c')]
 
 '''
 
-# program :
-l1 = [1,2,3]
-l3 = ['a','b','c','d']
-l2 = dict(zip(l1,l3))
-print(l2)
+'''
+program :
+
+def my_zip(list1 ,list2):
+    length = min(len(list1),len(list2))
+    i = 0
+    while i < length:
+        return (list1[i],list2[i])
+        i+=1
+print(list(my_zip([1,2,3],['a','b','c'])))
+
+
+
+'''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
