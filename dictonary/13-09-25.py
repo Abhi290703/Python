@@ -152,11 +152,13 @@ def my_zip(list1 ,list2):
         i+=1
 print(list(my_zip([1,2,3],['a','b','c'])))
 
-
+'''
 
 '''
 
+14.	Write a program to read a file and display the 3 most frequent words along with their counts.
 
+'''
 
 
 
