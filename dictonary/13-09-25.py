@@ -93,8 +93,26 @@ output :
 
 {'a': 1, 'b': 4}
 
+why ?
+
+the key values will be change only  if we change key values output will be same 
+
+example :
+my_dict = {"d": 1, "e": 2}
+for k, v in my_dict.items():
+    my_dict[k] = v * v
+    print(my_dict)
+
+output :
+{'d': 1, 'e': 2}
+{'d': 1, 'e': 4}
+
 
 '''
+
+def add_numbers(a, b, c=0, d):
+    return a + b + c + d
+
 
 
 
