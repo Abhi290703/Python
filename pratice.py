@@ -618,7 +618,9 @@ r = 1
 print(p and q) or (r + 1)
 
 
-
+a = 4
+b = 3
+print(a >> b)
 
 
 
