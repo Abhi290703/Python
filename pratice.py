@@ -610,7 +610,12 @@ array
 # list  
 
 
+''' logic gates '''
 
+p =4
+q =3
+r = 1
+print(p and q) or (r + 1)
 
 
 
