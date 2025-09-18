@@ -56,7 +56,12 @@ fun()'''
 add = lambda x,y : x+y
 print(add(10,20))
 
+import math
 
+print(abs(-12))
+print(pow(45,2))
+print(round(4.51324,ndigits=3))
+print(divmod(50,2))
 
 
 
