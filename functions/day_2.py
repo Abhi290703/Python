@@ -20,6 +20,16 @@ def outer():
 outer()
 
 
+# program 3
+
+def outer(a,b):
+    print(a,b)
+    def inner():
+        sum = a + b
+        print(sum)
+    inner()
+outer(10,20)
+
 
 
 
