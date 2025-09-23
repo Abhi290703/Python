@@ -1,3 +1,3 @@
 import mod as m
-
-print(m.sum)
+print(m.a)
+print(m.b)
