@@ -1,5 +1,5 @@
 '''
-where are some pre-defined keywords where we uses rather than the for or loops statemets
+where are some pre-defined methods where we uses rather than the for or loops statemets
 
 iter -> iteration
 my_gen -> generators it generates the codes
@@ -19,12 +19,14 @@ abhi() -> it is an object
 
 name = 'AchiversIT'
 
+# this is the complex type
+
 # a = iter(name)
 # print(next(a))
 # print(next(a))
 # print(next(a))
 
-# to overcome this we use for loop 
+# this is the simplist type to execute
 
 a = iter(name)
 for i in name:
