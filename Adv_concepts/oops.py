@@ -105,7 +105,7 @@ class static:
     
     @staticmethod
     def square(x,y):
-        return x * x
+        return x * y
 print("Addition:",static.add(4,9))
 print("Square:",static.square(8,8))
 
