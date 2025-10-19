@@ -1,0 +1,100 @@
+What is python ?
+    Python is a high level programming language, and it is a hybrid language where it run anywhere
+    Python is a iterable where everything in the python is a object .
+    Python is a compiler based and it is interpriter and hybrid language.
+
+What are features of python ?
+    it is simple,
+    easy to understand,
+    dynamici,
+    object oriented,
+    scable,
+    platform independent,
+
+what are the datatype in python ?
+1.Numeric Datatypes :
+    int
+    float
+    boolean (true/false)
+    complex
+
+2.Sequentical datatype :
+    string
+    tuples
+    lists
+    array
+    bytearray
+
+3.Set :
+    sets
+
+4.dictonary :
+    dict
+
+what are variables ?
+    variables are used to store data in it
+    eg : a = 10 (a is a variable we have stored data is 10)
+
+    conditions : 
+    1.variables should start with underscore
+    2.variables contain alpha-numeric values 
+    3.variables should not start with special characters
+
+What are datatypes ?
+    datatypes in python are 
+    int float boolean complex
+    list tuples dictonary sets string arraystring
+
+what are type converstions ?
+    type converstions are nothing but converting data into another type
+    some of the type converstions are :
+        1.decimal
+        2.octal decimal
+        3.binary
+        4.Hexa-decimal
+    base converstion methods are :
+        1.bin()
+        2.oct()
+        3.hex()
+
+what is operator ?
+    it performs some operations in between operands
+
+    some of the operations are :
+    Assignment operator :
+        + , - , * , / , % , **(exponent) , //(floor division)
+
+    Relational operator :
+        > , < , >= , <= , == , != 
+
+    Arthimatic operator :
+        += , -= , *= , /= , %= , **= , //=
+
+    Logical operator :
+        and , or , not
+
+    Bitwise operator : 
+        && , || , ^
+
+what are conditional statements ?
+    conditional statements are used to check whether the condition is satsified or not
+    some of the conditional statements are :
+    if , if-else , elif , nested-if , match
+
+what are iterations ?
+    iterations are reperated statements it checks the conditions and satsifies until 
+    condition is true.
+    while , do-while 
+
+what are loops ? 
+    for loops
+
+
+
+
+
+
+
+
+
+
