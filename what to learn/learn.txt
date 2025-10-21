@@ -1,0 +1,16 @@
+task 1 :
+    analysis what concepts do you know
+    list out the concepts
+    what you don't know list out 
+
+task 2 :
+    revise the concepts once again
+    write the definitions and notes what topics have cleared 
+
+task 3 :
+    Pratice coding daily 
+    day wise topics and yesterday topics
+
+task 4 :
+    prepare for interview 
+    make questions for interview

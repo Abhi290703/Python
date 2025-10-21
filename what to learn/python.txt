@@ -1,0 +1,210 @@
+1.what is python ?
+python is high-level programming language 
+where python is a interpreted language where each and every line code will be executed before
+turning into machine code
+
+2.why python is hybrid language ?
+python is hybrid language because first it compiles into byte code and then it interpets bytecode at 
+runtime.
+
+3.Their are 3 types of centeric
+    1.functional :
+        a.program is oraginized has collections of Functions where each function performs specific task
+        b.it doesn't change globaly 
+    2.data :
+        a.it is used store data,access and manipulation of data
+        b.it is used databases , data analysis and file handiling
+    3.module :
+        a. is to separate related logic into different files.
+        b.Each module handles one part of the system — easier to maintain and reuse.
+
+4.Datatypes in python
+    1.Numeric
+        a.int
+        b.float
+        c.boolean
+        d.complex
+    
+    2.Sequentical
+        a.list
+        b.tuple
+        c.string
+        d.array
+        e.bytearray
+
+    3.sets
+        a.set
+
+    4.dist
+        a.dictonary
+
+what are the fratures of the python ?
+simple,
+easy to write,
+interpreted,
+dynamici,
+object oriented,
+platform independent,
+scripting language,
+scable
+
+what is mean variables ?
+variables are used to data or values to it.where we change the values while execution of the programs
+
+what is mean by literal ?
+we can declare the values directly into the variables is knows has literals.
+
+How many types of converstions are their ?
+1.implict conversition
+2.explict converstion
+
+Implict Converstion :
+1.int
+2.float
+3.complex
+4.boolean
+
+Explict Converstion :
+1.tuple
+2.list
+3.string
+4.array
+5.bytearray
+
+what are primitive data type and non-primitive data type
+
+primitive data type :
+int
+float
+boolean
+string
+complex
+
+Non-primitive data type:
+list
+tuple
+sets
+dictonary
+array
+
+ what are type conversition :
+ int float boolean string complex
+
+ int() :
+ we can convert any type of datatype into int except complex but only valid strings can be converted
+ eg : a = 12.56 int(a) = 12
+ eg : b = true int(b) = 1
+
+float() :
+float can convert all other into float except complex
+eg : a = 12 float(a) = 12.00
+eg : b = true float(b) = 1.0
+
+boolean() :
+by passing any variable it will convert into true except false
+
+string():
+string can change any type of variables
+eg : a = 10 str(a) = '10'
+eg : b = 12.34 str(b) = '12.34'
+
+Quadratic Equation :
+
+x = +-b root(b^2 - 4ac)/2a
+
+string concatation :
+By using "+" we can add the both the operators by concatation
+eg : a = 'abc'
+     b = 'def'
+     c = a + b
+
+string Repetation :
+by using "*" we can repeat the value how many times we can
+eg : a = 5
+     b = a * 5 // aaaaa
+
+chain comparison :
+chain comparison operator allows multiple values to it
+eg :  a < b < change
+ x = 15
+ if 10 < x < 20:
+    print("it is a correct")
+else :
+    print("it is wrong")
+
+Inqury methods : inqury methods either returns true or false
+isalpha
+islower
+isupper
+isdigit
+isalnum
+isspace
+istitle
+
+Formating Printing :
+ASCII : American standed of code information interchange
+A-Z : 65 - 90
+a-z : 97-122
+0-9 : 48-57
+
+Formatted Printing : printing a meaning statement is called formatting printing
+%s
+%f
+%i
+%o
+%x
+%d
+%g
+%E
+
+in list :
+list are heterogenous elements list are mutable where any type of elements in the list
+list are creation []
+Adding elements in list are :
+append
+extend
+insert
+copy
+
+Removing elements from list :
+remove
+pop
+clear
+del()
+
+sets : sets is mutable 
+in sets the order of elements are in unorder form
+set operations :
+add()
+remove()
+update()
+
+types of sets :
+set() , poperset(), propersubset(), disjointset(), 
+
+union : all the elementsfrom both a and b will be written values
+intersection : all the common elements from both a and b will be written
+Difference : 
+only distinct values from "A" will be sorted from B-A
+only distinct values from "B" will be sorted from A-B
+
+dictonary : it is a collections of homogenious elements and it is mutable it accepts any type of elements
+in dictonary key and values pairs can be any type
+
+operations :
+add() , update() , write()
+
+zip functions : it combines both values into zip format
+ methods in dictonary :
+ keys()
+ values()
+ items()
+ get()
+ set default()
+ 
+
+
+
+
+
+

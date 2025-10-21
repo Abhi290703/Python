@@ -1,0 +1,36 @@
+Python concepts :
+1.intro                     ^
+2.variables and data-types  ^
+3.Type conversitions        
+4.Operators                 ^
+5.Operators and conditional ^
+6.conditional and loops     ^
+7.loops                     ^
+8.brake continue and for    ^
+9.for_loop                  ^
+10.strings_intro            ^
+11.string_methods           ^
+12.formated_printing        ^
+13.lits                     ^
+14.tuples                   ^
+15.dictonary , sets         ^
+16.methods  
+17.Functions                ^
+18.Modules and files
+19.Adv_regex                ^
+20.Adv_iterators
+21.Adv_inheritance          ^
+22.Adv_polymorphisum        ^
+23.Adv_Multithreading
+24.Adv_interprocess communication
+25.Adv_IPC with conditions and queue classes
+26.Adv_Date and time
+27.Adv_database (SQL Lite)
+28.OS Modules
+29.CSV (comma sperated value)
+
+
+SQL :
+DDl
+DBL
+SQL
