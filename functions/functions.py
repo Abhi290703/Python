@@ -140,7 +140,7 @@ paticular position to values error will occur '''
 
 # def pos(a,b,c):
 #     print('sum of pos',a+b+c)
-# pos(10,20,30)     '''in this case if we see that i have particula position to values '''
+# pos(10,20,30)     '''in this case if we see that i have given particula position to values '''
 
 # def pos1(a,b,c):
 #     print('sub of numbers',a-b ,b-c,c-a)
@@ -150,7 +150,7 @@ paticular position to values error will occur '''
 # def pos2(a,b,c):
 #     print('sum of pos2',a+b+c)
 # pos2(b=20,10,30)    
-'''if we see in this case we have given b=20 where we have position to b=20 and remaining values are not assign values to it '''
+'''if we see in this case we have given b=20 where we have position to b=20 and remaining values are not assign  to it '''
 
 # num = [2,3,4,5]
 # def pos3(a,b,c,d):
