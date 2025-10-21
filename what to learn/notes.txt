@@ -90,12 +90,4 @@ what are loops ?
     for loops
   should be written has (let i=0;i<n;i++)
 
-
-
-
-
-
-
-
-
-
+this is for loops
